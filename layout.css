@@ -1,0 +1,55 @@
+html {
+    text-align: center;
+    font-family: Roboto, serif;
+}
+
+div.automatonBlock {
+    display: table;
+    margin: 0 auto;
+}
+
+.user,
+.automaton {
+    width: 300px;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.automaton p {
+    background: lightyellow;
+    border: 1px dashed lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.button {
+    width: 165px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #8497FF;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+    cursor: pointer;
+    transition: box-shadow .4s ease;
+}
+
+.userButton {
+    margin-top: 20px;
+}
+
+.greenButton {
+    background: forestgreen;
+}
+
+.orangeButton {
+    background: darkorange;
+}
+
+
+
